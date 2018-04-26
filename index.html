@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html>
+
+ <head>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>DÍA MUNDIAL DE LA BICICLETA</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/temaapp2.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/bici-2.jpg','imagenes/bici-4.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>DÍA MUNDIAL DE LA BICICLETA</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Dato Curioso</h1>
+    <div>
+    <p>Esta Fue una de las Primeras Bicicletas</p>
+     <br> 
+    </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/bici-2.jpg',1)"><img src="imagenes/bici-1.jpg" width="60%" height="60%" id="Image9"></a> </div>
+   </div>
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Historia de la bicicleta</h2>
+       
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Utilización como medio de transporte</h2>
+       
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de Bicicletas</h2>
+         
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>5 marcas importantes de bicicletas</h2>
+        
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Porqué se celebra el Día Mundial de la bicicleta</h2>
+       
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicación Tres</h4>
+    <h4>Catarino Andres Mendez Martínez</h4>
+   </div>
+  </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Historia de la bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p>La bicicleta del barón alemán Karl von Drais, de 1817, está considerada como la pionera. La llamó “máquina corredora” (laufmaschine en alemán)</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/bici-4.jpg',1)"><img src="imagenes/bici-3.jpg" width="60%" height="60%" id="Image10"></a> </div>
+    <p>Se atribuye la invención de la bicicleta a pedales al herrero escocés Kirkpatrick MacMillan, en 1839, aunque quien empezó a fabricar su modelo fue el inglés Thomas McCall en 1869. Algunos historiadores dudan de que esta invención se pueda atribuir a MacMillan: no quedan ni diseños ni modelos anteriores a la década de los 60.</p>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Utilización como medio de transporte</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   <img src="imagenes/bici-5.jpg">
+    <h2>Se cree que alrededor del mundo, 800 millones de bicicletas ruedan cada día</h2>
+    <P>La bicicleta sí es efectiva como medio de transporte para distancias no tan extensas, para usarla dentro de una ciudad o pueblo es de mucha utilidad.El uso de la bicicleta tiene más ventajas que desventajas,sin duda una estupenda opción que contribuye al ahorro,  combate la contaminación y el tráfico y es recomendable como ejercicio. Por eso es importante comenzar a formarse una cultura sobre su uso y los cambios se verían manera sorprendente en la ciudad. </P>
+    <a href="https://www.sura.com/blogs" target="_self">Mas Información</a>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Tipos de Bicicletas</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <h2>Existe Alrededor de 10 Tipos de Bicicletas</h2>
+  </div>
+  <div data-role="content">
+   <div>
+    <p>1.-Bicicletas de Montaña (MTB)</p>
+    <p>2.-Bicicletas de Ruta</p>
+    <p>3.-Bicicletas Híbridas</p>
+    <p>4.-Bicicletas Urbanas</p>
+    <p>5.-Bicicletas plegables</p>
+    <p>6.-Fixies y single speed</p>
+    <p>7.-Cruisers</p>
+    <p>8.-MBX</p>
+    <p>9.-Touring</p>
+    <div>
+    </div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bici7.jpg" alt="bici-7" title="bici-7" id="wows1_0"/></li>
+		<li><img src="data1/images/bici8.jpg" alt="bici-8" title="bici-8" id="wows1_1"/></li>
+		<li><img src="data1/images/bici9.jpg" alt="bici-9" title="bici-9" id="wows1_2"/></li>
+		<li><img src="data1/images/bici10.jpg" alt="bici-10" title="bici-10" id="wows1_3"/></li>
+		<li><img src="data1/images/bici11.jpg" alt="bici-11" title="bici-11" id="wows1_4"/></li>
+		<li><img src="data1/images/bici12.jpg" alt="bici-12" title="bici-12" id="wows1_5"/></li>
+		<li><img src="data1/images/bici13.jpg" alt="bici-13" title="bici-13" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/bici14.jpg" alt="wow slider" title="bici-14" id="wows1_7"/></a></li>
+		<li><img src="data1/images/bici15.jpg" alt="bici-15" title="bici-15" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bici-7"><span><img src="data1/tooltips/bici7.jpg" alt="bici-7"/>1</span></a>
+		<a href="#" title="bici-8"><span><img src="data1/tooltips/bici8.jpg" alt="bici-8"/>2</span></a>
+		<a href="#" title="bici-9"><span><img src="data1/tooltips/bici9.jpg" alt="bici-9"/>3</span></a>
+		<a href="#" title="bici-10"><span><img src="data1/tooltips/bici10.jpg" alt="bici-10"/>4</span></a>
+		<a href="#" title="bici-11"><span><img src="data1/tooltips/bici11.jpg" alt="bici-11"/>5</span></a>
+		<a href="#" title="bici-12"><span><img src="data1/tooltips/bici12.jpg" alt="bici-12"/>6</span></a>
+		<a href="#" title="bici-13"><span><img src="data1/tooltips/bici13.jpg" alt="bici-13"/>7</span></a>
+		<a href="#" title="bici-14"><span><img src="data1/tooltips/bici14.jpg" alt="bici-14"/>8</span></a>
+		<a href="#" title="bici-15"><span><img src="data1/tooltips/bici15.jpg" alt="bici-15"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>5 marcas importantes de bicicletas</h1> 
+  </div>
+  <div data-role="content" >
+   <div> 
+      <h2>1.-Specialized</h2>
+      <h2>2.-Scott</h2>
+      <h2>3.-Trek</h2>
+      <h2>4.-Giant</h2>
+      <h2>5.-Canyon</h2>
+    <div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bici19.jpg" alt="bici-19" title="bici-19" id="wows1_0"/></li>
+		<li><img src="data1/images/bici20.jpg" alt="bici-20" title="bici-20" id="wows1_1"/></li>
+		<li><img src="data1/images/bici21.jpg" alt="bici-21" title="bici-21" id="wows1_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/bici22.jpg" alt="responsive slider" title="bici-22" id="wows1_3"/></a></li>
+		<li><img src="data1/images/bici23.jpg" alt="bici-23" title="bici-23" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bici-19"><span><img src="data1/tooltips/bici19.jpg" alt="bici-19"/>1</span></a>
+		<a href="#" title="bici-20"><span><img src="data1/tooltips/bici20.jpg" alt="bici-20"/>2</span></a>
+		<a href="#" title="bici-21"><span><img src="data1/tooltips/bici21.jpg" alt="bici-21"/>3</span></a>
+		<a href="#" title="bici-22"><span><img src="data1/tooltips/bici22.jpg" alt="bici-22"/>4</span></a>
+		<a href="#" title="bici-23"><span><img src="data1/tooltips/bici23.jpg" alt="bici-23"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, CAMM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Porqué se celebra el Día Mundial de la bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+     Se celebra en todo el mundo cada 19 de abril con la finalidad de promover el uso de este medio de transporte, llamar la atención sobre los derechos de los ciclistas y destacar sus beneficios para la salud y para la movilidad sostenible.
+    <p></p>
+    <img src="imagenes/pasatiempo.jpg" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, CAMM</h4>
+  </div>
+ </div>
+
+
+</body>
+</html>
+        
